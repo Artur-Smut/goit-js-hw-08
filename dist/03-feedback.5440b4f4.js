@@ -564,7 +564,7 @@ const mailRef = document.querySelector("input");
 const commentRef = document.querySelector("textarea");
 const formRef = document.querySelector(".feedback-form");
 const submitBtnRef = document.querySelector("button");
-formRef.addEventListener("input", (0, _lodashThrottleDefault.default)(setData, 5000));
+formRef.addEventListener("input", (0, _lodashThrottleDefault.default)(setData, 500));
 submitBtnRef.addEventListener("click", onBtn);
 const formField = {
     email: "",

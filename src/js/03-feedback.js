@@ -5,7 +5,7 @@ const commentRef = document.querySelector('textarea')
 const formRef = document.querySelector('.feedback-form')
 const submitBtnRef = document.querySelector('button')
 
-formRef.addEventListener('input', throttle(setData, 5000));
+formRef.addEventListener('input', throttle(setData, 500));
 submitBtnRef.addEventListener('click', onBtn);
 
 const formField = {
